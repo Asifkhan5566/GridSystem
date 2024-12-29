@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.herosection{
+    height:79vh !important;
+    width: 100%;
+}
+#col1{
+    height: 79vh;
+}
+footer{
+height: 12vh;
+}
+/* Responsive */
+@media (max-width:576px) {
+    #col1{
+        height: 25vh !important;
+    }
+    footer{
+        height: 17.85vh !important;
+    }
+    .herosection{
+        height: 100%!important;
+    }
+    #pading1{
+        padding-top: 2.69rem !important;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    #col1{
+        height: 40vh;
+    }
+    footer{
+        height: 13vh !important;
+    }
+    #pading1{
+        padding-top: 1.69rem !important;
+    }
+}
